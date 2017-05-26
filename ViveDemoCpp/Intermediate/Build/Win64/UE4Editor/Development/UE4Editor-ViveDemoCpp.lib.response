@@ -16,6 +16,8 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 "D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\PCH.ViveDemoCpp.h.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\DemoPawn.cpp.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\MyPlayerController.cpp.obj"
 "D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCpp.cpp.obj"
 "D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCppGameModeBase.cpp.obj"
 "D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCpp.generated.cpp.obj"

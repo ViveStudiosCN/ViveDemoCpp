@@ -14,6 +14,8 @@ class VIVEDEMOCPP_API AViveDemoCppGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 	
 	
-	
+public:
+
+	AViveDemoCppGameModeBase();
 	
 };

@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ViveDemoCpp_Source_ViveDemoCpp_ViveDemoCppGameModeBase_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AViveDemoCppGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AViveDemoCppGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AViveDemoCppGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AViveDemoCppGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AViveDemoCppGameModeBase); \
@@ -49,8 +49,6 @@ public:
 
 
 #define ViveDemoCpp_Source_ViveDemoCpp_ViveDemoCppGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AViveDemoCppGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AViveDemoCppGameModeBase(AViveDemoCppGameModeBase&&); \
@@ -58,7 +56,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AViveDemoCppGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AViveDemoCppGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AViveDemoCppGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AViveDemoCppGameModeBase)
 
 
 #define ViveDemoCpp_Source_ViveDemoCpp_ViveDemoCppGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET

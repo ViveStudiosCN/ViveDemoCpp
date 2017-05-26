@@ -11,17 +11,96 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1ViveDemoCpp() {}
+	void ADemoPawn::StaticRegisterNativesADemoPawn()
+	{
+	}
+	IMPLEMENT_CLASS(ADemoPawn, 1265944978);
+	void AMyPlayerController::StaticRegisterNativesAMyPlayerController()
+	{
+	}
+	IMPLEMENT_CLASS(AMyPlayerController, 1245258034);
 	void AViveDemoCppGameModeBase::StaticRegisterNativesAViveDemoCppGameModeBase()
 	{
 	}
 	IMPLEMENT_CLASS(AViveDemoCppGameModeBase, 1214353994);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
+	ENGINE_API class UClass* Z_Construct_UClass_APlayerController();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
+	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_ADemoPawn_NoRegister();
+	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_ADemoPawn();
+	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_AMyPlayerController_NoRegister();
+	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_AMyPlayerController();
 	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_AViveDemoCppGameModeBase_NoRegister();
 	VIVEDEMOCPP_API class UClass* Z_Construct_UClass_AViveDemoCppGameModeBase();
 	VIVEDEMOCPP_API class UPackage* Z_Construct_UPackage__Script_ViveDemoCpp();
+	UClass* Z_Construct_UClass_ADemoPawn_NoRegister()
+	{
+		return ADemoPawn::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ADemoPawn()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage__Script_ViveDemoCpp();
+			OuterClass = ADemoPawn::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("DemoPawn.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("DemoPawn.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ADemoPawn(Z_Construct_UClass_ADemoPawn, &ADemoPawn::StaticClass, TEXT("ADemoPawn"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ADemoPawn);
+	UClass* Z_Construct_UClass_AMyPlayerController_NoRegister()
+	{
+		return AMyPlayerController::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AMyPlayerController()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APlayerController();
+			Z_Construct_UPackage__Script_ViveDemoCpp();
+			OuterClass = AMyPlayerController::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900284;
+
+
+				OuterClass->ClassConfigName = FName(TEXT("Game"));
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("MyPlayerController.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("MyPlayerController.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyPlayerController(Z_Construct_UClass_AMyPlayerController, &AMyPlayerController::StaticClass, TEXT("AMyPlayerController"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyPlayerController);
 	UClass* Z_Construct_UClass_AViveDemoCppGameModeBase_NoRegister()
 	{
 		return AViveDemoCppGameModeBase::StaticClass();
@@ -63,8 +142,8 @@ void EmptyLinkFunctionForGeneratedCode1ViveDemoCpp() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/ViveDemoCpp")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xFEE6E2FA;
-			Guid.B = 0x5AC067DF;
+			Guid.A = 0x540F7234;
+			Guid.B = 0xA336BA62;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ViveDemoCpp-1316.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\PCH.ViveDemoCpp.h.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\DemoPawn.cpp.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCpp.cpp.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCppGameModeBase.cpp.obj"
+"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\ViveDemoCpp.generated.cpp.obj"
+"D:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ViveDemoCpp\PCLaunch.rc.res"
+"D:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\UE4_PRJ\ViveDemoCpp\ViveDemoCpp\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ViveDemoCpp-1316.lib"

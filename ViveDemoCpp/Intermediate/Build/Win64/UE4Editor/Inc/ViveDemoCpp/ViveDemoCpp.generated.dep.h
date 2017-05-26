@@ -6,6 +6,12 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef VIVEDEMOCPP_DemoPawn_generated_h
+	#include "DemoPawn.h"
+#endif
+#ifndef VIVEDEMOCPP_MyPlayerController_generated_h
+	#include "MyPlayerController.h"
+#endif
 #ifndef VIVEDEMOCPP_ViveDemoCppGameModeBase_generated_h
 	#include "ViveDemoCppGameModeBase.h"
 #endif
