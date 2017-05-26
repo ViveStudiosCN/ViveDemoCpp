@@ -1,0 +1,208 @@
+﻿Log file open, 05/26/17 14:50:29
+LogInit:Display: Running engine for game: ViveDemoCpp
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(543136317) SRandInit(543136317).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072125
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.26-06.50.30:835][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-06.50.30:835][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.26-06.50.30:844][  0]LogInit: Computer: DESKTOP-RSCRSGM
+[2017.05.26-06.50.30:844][  0]LogInit: User: PKR
+[2017.05.26-06.50.30:844][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.26-06.50.30:844][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2017.05.26-06.50.30:844][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.26-06.50.30:844][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.26-06.50.30:844][  0]LogMemory: Process Physical Memory: 263.19 MB used, 263.19 MB peak
+[2017.05.26-06.50.30:844][  0]LogMemory: Process Virtual Memory: 262.26 MB used, 262.26 MB peak
+[2017.05.26-06.50.30:845][  0]LogMemory: Physical Memory: 5466.95 MB used,  10875.76 MB free, 16342.70 MB total
+[2017.05.26-06.50.30:845][  0]LogMemory: Virtual Memory: 643.79 MB used,  10875.76 MB free, 134217728.00 MB total
+[2017.05.26-06.50.30:962][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2017.05.26-06.50.30:962][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2017.05.26-06.50.30:962][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2017.05.26-06.50.31:251][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.26-06.50.31:285][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.05.26-06.50.31:285][  0]LogD3D11RHI:       8119/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.26-06.50.31:287][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.26-06.50.31:287][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.26-06.50.31:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.26-06.50.31:293][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.26-06.50.31:293][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.26-06.50.31:293][  0]LogWindows: EnumDisplayDevices:
+[2017.05.26-06.50.31:293][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.05.26-06.50.31:294][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.26-06.50.31:294][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.26-06.50.31:294][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.26-06.50.31:294][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.26-06.50.31:294][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.05.26-06.50.31:294][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.05.26-06.50.31:294][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.05.26-06.50.31:294][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.26-06.50.31:318][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.26-06.50.31:318][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.26-06.50.31:329][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.26-06.50.31:371][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../UE4_PRJ/ViveDemoCpp/ViveDemoCpp/Intermediate/Shaders/WorkingDirectory/3928/).
+[2017.05.26-06.50.31:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/11/AppData/Local/Temp/UnrealShaderWorkingDir/AF2FACF94181FBEC535A9CB9C41B35BF/'.
+[2017.05.26-06.50.31:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.26-06.50.32:356][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.26-06.50.32:399][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.26-06.50.32:440][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.26-06.50.32:483][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.26-06.50.32:527][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.26-06.50.32:571][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.26-06.50.32:613][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.26-06.50.32:657][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.26-06.50.32:692][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.26-06.50.32:735][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.26-06.50.32:778][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.26-06.50.32:819][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.26-06.50.32:865][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.26-06.50.32:913][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.26-06.50.32:962][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.26-06.50.33:051][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.26-06.50.33:051][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.26-06.50.33:081][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.26-06.50.33:161][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.26-06.50.33:188][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.26-06.50.33:229][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.26-06.50.33:272][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.26-06.50.33:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.26-06.50.33:357][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.26-06.50.33:357][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.26-06.50.33:672][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/11/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/11/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4_PRJ/ViveDemoCpp/ViveDemoCpp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4_PRJ/ViveDemoCpp/ViveDemoCpp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.26-06.50.33:726][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.26-06.50.33:743][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.26-06.50.33:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/11/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.26-06.50.33:764][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.26-06.50.33:764][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-06.50.33:765][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-06.50.34:015][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-06.50.34:018][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.26-06.50.34:219][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.26-06.50.34:253][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.26-06.50.34:289][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.26-06.50.34:289][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.26-06.50.34:289][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.26-06.50.34:840][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: vivedemocpp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1792481276
+[2017.05.26-06.50.34:879][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.05.26-06.50.34:942][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.047777 seconds
+[2017.05.26-06.50.34:949][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.26-06.50.34:949][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.26-06.50.34:949][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.26-06.50.35:003][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.26-06.50.36:382][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.26-06.50.36:432][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.26-06.50.36:804][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.26-06.50.37:084][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.26-06.50.37:084][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.26-06.50.37:115][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.26-06.50.37:147][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.26-06.50.38:005][  0]LogEngine: Initializing Engine...
+[2017.05.26-06.50.38:028][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-DBD7EEF3
+[2017.05.26-06.50.38:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.26-06.50.38:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.26-06.50.38:215][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.26-06.50.38:227][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-06.50.38:239][  0]LogInit: FAudioDevice initialized.
+[2017.05.26-06.50.38:272][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/11/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-06.50.38:279][  0]LogInit: Texture streaming: Enabled
+[2017.05.26-06.50.38:344][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.26-06.50.38:406][  0]LogInit: Transaction tracking system initialized
+[2017.05.26-06.50.38:654][  0]BlueprintLog: New page: 编辑器加载
+[2017.05.26-06.50.39:372][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.05.26-06.50.40:054][  0]LogConsoleResponse:Display: 
+[2017.05.26-06.50.40:187][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_PRJ/ViveDemoCpp/ViveDemoCpp/Content/' took 0.01s
+[2017.05.26-06.50.40:187][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.26-06.50.40:187][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.26-06.50.41:141][  0]SourceControl: 信息 源码控制已禁用
+[2017.05.26-06.50.41:141][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.26-06.50.41:170][  0]LightingResults: New page: 光照构建
+[2017.05.26-06.50.41:230][  0]MapCheck: New page: 地图检测
+[2017.05.26-06.50.41:230][  0]LightingResults: New page: 光照构建
+[2017.05.26-06.50.41:572][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.26-06.50.41:591][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.26-06.50.41:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.26-06.50.41:697][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.26-06.50.41:741][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时43.735毫秒完成。
+[2017.05.26-06.50.41:741][  0]LogFileHelpers: Loading map 'Template_Default' took 0.599
+[2017.05.26-06.50.41:886][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (微软拼音).
+[2017.05.26-06.50.42:158][  0]LogCollectionManager: Loaded 0 collections in 0.000684 seconds
+[2017.05.26-06.50.42:250][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_PRJ/ViveDemoCpp/ViveDemoCpp/Saved/Collections/' took 0.01s
+[2017.05.26-06.50.42:250][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_PRJ/ViveDemoCpp/ViveDemoCpp/Content/Developers/PKR/Collections/' took 0.01s
+[2017.05.26-06.50.42:250][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_PRJ/ViveDemoCpp/ViveDemoCpp/Content/Collections/' took 0.01s
+[2017.05.26-06.50.42:250][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.26-06.50.42:259][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2246 classes and 455 folders.
+[2017.05.26-06.50.42:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.05.26-06.50.42:388][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.05.26-06.50.42:436][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.05.26-06.50.42:564][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.26-06.50.42:668][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.05.26-06.50.42:668][  0]LogLoad: (Engine Initialization) Total time: 13.68 seconds
+[2017.05.26-06.50.42:668][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.05.26-06.50.42:668][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.26-06.50.42:668][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.26-06.50.42:723][  0]LogOcInput: OculusInput pre-init called
+[2017.05.26-06.50.42:740][  0]LogAssetRegistry: Asset discovery search completed in 7.8825 seconds
+[2017.05.26-06.50.42:740][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.26-06.50.42:740][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.05.26-06.50.42:745][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.26-06.50.42:753][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.26-06.50.42:779][  0]LogSlate: Took 0.003306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.26-06.50.42:780][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.26-06.50.42:786][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.26-06.50.42:982][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
